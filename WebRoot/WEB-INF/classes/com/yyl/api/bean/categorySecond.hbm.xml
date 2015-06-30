@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+	PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Hibernate映射文件的根元素 -->
+<hibernate-mapping package="com.yyl.api.bean">
+	<class	name="CategorySecond"	table="categorysecondinfo">
+		<!-- 映射标识属性 -->
+		<id	name="categorySecondID" type="integer" column="categorySecondID">
+			<!-- 指定使用identity主键生成策略 -->
+			<generator class="identity"/>
+		</id>		
+		<!-- 映射普通属性 -->
+		<property name="categorySecondName" column="categorySecondName" type="string" length="50"/>
+			
+		<set name="apiInfo" cascade="all" inverse="true" order-by="apiID desc">   
+			<key column="categorySecondID"/>   
+		<one-to-many class="com.yyl.api.bean.ApiInfo"/>   
+		</set> 	
+		
+		<many-to-one name="CategoryFirst" column="categoryFirstID" class="com.yyl.api.bean.CategoryFirst" not-null="true"/> 
+		
+	</class>
+</hibernate-mapping>
