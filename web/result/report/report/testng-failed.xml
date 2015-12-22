@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [all]">
+  <parameter name="encode" value="GBK"/>
+  <parameter name="isLogin" value="false"/>
+  <parameter name="proxy" value=""/>
+  <parameter name="logout" value=""/>
+  <parameter name="delay" value=""/>
+  <parameter name="variable" value=""/>
+  <parameter name="login" value=""/>
+  <parameter name="testcase" value="/客户端注销.json"/>
+  <test name="储蓄卡信息同步(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/储蓄卡信息同步.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 储蓄卡信息同步(failed) -->
+  <test name="银行所有账户查询(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/银行所有账户查询.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 银行所有账户查询(failed) -->
+  <test name="银行资产概要(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/银行资产概要.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 银行资产概要(failed) -->
+  <test name="信用卡账单信息查询(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/信用卡账单信息查询.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 信用卡账单信息查询(failed) -->
+  <test name="左侧边栏查询(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/左侧边栏查询.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 左侧边栏查询(failed) -->
+  <test name="获取最后更新时间(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/获取最后更新时间.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 获取最后更新时间(failed) -->
+  <test name="金融机构(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/金融机构.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 金融机构(failed) -->
+  <test name="信用卡账户信息查询(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/信用卡账户信息查询.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 信用卡账户信息查询(failed) -->
+  <test name="信用卡账单信息同步(failed)">
+    <parameter name="encode" value="GBK"/>
+    <parameter name="isLogin" value="false"/>
+    <parameter name="proxy" value=""/>
+    <parameter name="logout" value=""/>
+    <parameter name="delay" value=""/>
+    <parameter name="variable" value=""/>
+    <parameter name="login" value=""/>
+    <parameter name="testcase" value="/信用卡账单信息同步.json"/>
+    <classes>
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setParameters"/>
+          <include name="run"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </classes>
+  </test> <!-- 信用卡账单信息同步(failed) -->
+</suite> <!-- Failed suite [all] -->

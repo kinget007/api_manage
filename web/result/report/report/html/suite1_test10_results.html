@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>api_manage autotest report - 信用卡账单信息查询</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="report.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="report.js"></script>
+</head>
+<body>
+<h1>信用卡账单信息查询</h1>
+<p>
+  Test duration: 0.059s
+</p>
+
+
+
+  <table class="resultsTable" border="1" cellspacing="0" cellpadding="2">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.paic.layer.frame.testcase.LayerServiceCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  run
+      </td>
+  <td class="duration">
+    0.052s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.RuntimeException: Interface layer &gt;&gt; run failure, assert：{&quot;code&quot;:&quot;success&quot;,&quot;result&quot;:{&quot;prevDate&quot;:&quot;2015/05&quot;,&quot;billDetail&quot;:[{&quot;currencyType&quot;:&quot;¥&quot;,&quot;tradeDetails&quot;:[{&quot;tradeTime&quot;:&quot;2015/05/05&quot;,&quot;tradeAmount&quot;:&quot;21.30&quot;,&quot;accountDate&quot;:&quot;2015/05/05&quot;,&quot;cardTailNo&quot;:&quot;8358&quot;,&quot;tradeCurrencyName&quot;:&quot;¥&quot;,&quot;balanceCurrencyName&quot;:&quot;¥&quot;,&quot;remark&quot;:&quot;第一支行营业厅&quot;,&quot;accountAmount&quot;:&quot;21.30&quot;},{&quot;tradeTime&quot;:&quot;2015/04/28&quot;,&quot;tradeAmount&quot;:&quot;-79.00&quot;,&quot;accountDate&quot;:&quot;2015/04/28&quot;,&quot;cardTailNo&quot;:&quot;8358&quot;,&quot;tradeCurrencyName&quot;:&quot;¥&quot;,&quot;balanceCurrencyName&quot;:&quot;¥&quot;,&quot;remark&quot;:&quot;支付宝（中国）网络技术有限公司&quot;,&quot;accountAmount&quot;:&quot;-79.00&quot;},{&quot;tradeTime&quot;:&quot;2015/04/13&quot;,&quot;tradeAmount&quot;:&quot;-4.50&quot;,&quot;accountDate&quot;:&quot;2015/04/13&quot;,&quot;cardTailNo&quot;:&quot;8358&quot;,&quot;tradeCurrencyName&quot;:&quot;¥&quot;,&quot;balanceCurrencyName&quot;:&quot;¥&quot;,&quot;remark&quot;:&quot;上海可的便利店有限公司&quot;,&quot;accountAmount&quot;:&quot;-4.50&quot;},{&quot;tradeTime&quot;:&quot;2015/04/13&quot;,&quot;tradeAmount&quot;:&quot;-44.90&quot;,&quot;accountDate&quot;:&quot;2015/04/13&quot;,&quot;cardTailNo&quot;:&quot;8358&quot;,&quot;tradeCurrencyName&quot;:&quot;¥&quot;,&quot;balanceCurrencyName&quot;:&quot;¥&quot;,&quot;remark&quot;:&quot;支付宝（中国）网络技术有限公司&quot;,&quot;accountAmount&quot;:&quot;-44.90&quot;}],&quot;hasPaymented&quot;:&quot;21.3&quot;,&quot;currentPayment&quot;:&quot;-128.40&quot;,&quot;endDate&quot;:&quot;2015/05/11&quot;,&quot;minimumPayment&quot;:&quot;-12.84&quot;,&quot;type&quot;:&quot;人民币&quot;,&quot;paymentDate&quot;:&quot;2015/06/05&quot;,&quot;startDate&quot;:&quot;2015/04/12&quot;}],&quot;startYear&quot;:&quot;2015&quot;,&quot;currentDate&quot;:&quot;2015/06&quot;,&quot;currentYear&quot;:&quot;2015&quot;,&quot;hasEarlier&quot;:true}} is not matched! url = https://servicebeta.24money.com/default/bank.credit.getCreditBillDetail</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)<br />
+              com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)<br />
+              com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)<br />
+              com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)<br />
+              com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)<br />
+              com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:497)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable" border=1 cellspacing=0 cellpadding=2>
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.paic.layer.frame.testcase.LayerServiceCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loadData
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"", "", ""</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setParameters
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"", "", "false", "/信用卡账单信息查询.json", "GBK"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

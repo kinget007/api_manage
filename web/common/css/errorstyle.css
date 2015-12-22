@@ -1,0 +1,404 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Octopus
+	Theme URI: http://www.sacredpixel.com
+	Description: Octopus error template 
+	Author: PixFlow (http://themeforest.net/user/PixFlow)
+	Author URI: http://www.sacredpixel.com
+
+-------------------------------------------------------------------------------------
+
+    0.	CSS Reset
+	1.	Document Setup
+	2.	Error
+	3.	Background elements
+	4.	Search Form
+	5.	Social Link
+	6.	Facebook Star
+
+-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*	0.	CSS Reset
+/*-----------------------------------------------------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	1.	Document Setup
+/*-----------------------------------------------------------------------------------*/
+
+html, body{ width:100%; }
+
+body{
+    background:transparent url(images/pattern.jpg) repeat;
+    color:#fff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size:12px;
+}
+
+.clear{
+    clear:both;
+}
+
+#main{
+    width:980px;   
+    margin: 0 auto;
+    position:relative;
+}
+
+.container{
+    width:960px;
+    min-height:855px;
+    margin:0 auto;
+    background:url(images/octapus.png) no-repeat;
+}
+
+.content
+{
+    margin:250px 0 0 0;
+    width:315px;
+    float:right;
+}
+
+#sky-bg{
+    min-width:980px;/*Should be same with as #main*/
+    width:100%;
+    height:406px;
+    background:url(images/sky-sea.png) repeat-x;
+    position:absolute;
+    left:0;
+    top:0;	
+    z-index:-1000;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	2.	Error
+/*-----------------------------------------------------------------------------------*/
+
+.error-container h1,
+.error-container p
+{
+    font-family: 'Cabin Sketch', cursive;
+    line-height:110px;
+}
+
+.error-container h1{
+    font-size:146px;
+    color:#943c76;
+	padding-top:10px;
+}
+
+.error-container p{
+    font-size:105px;
+    color:#252525;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3.	Background elements
+/*-----------------------------------------------------------------------------------*/
+
+#background-shells
+{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    min-height:855px;
+    overflow:hidden;
+}
+
+#background-shells div
+{
+    min-width:980px;
+    margin-top:320px;
+    height:724px;
+    background:url(images/bg-shells.png) no-repeat center top;
+}
+
+.bubble-text-container
+{
+    position:absolute;
+    left:22px;
+    top:265px;
+    display: table;
+    width:195px;
+    height:150px;
+}
+
+.bubble-text-container .wrapper
+{
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bubble-text
+{
+    font-size:30px;
+    line-height:40px;
+}
+
+#sun
+{
+    position:absolute;
+    right:124px;
+    top:50px;
+    z-index:-1;
+}
+
+#clouds
+{
+    min-width:980px;/*Should be same with as #main*/
+    width:100%;
+    height:406px;
+    position:absolute;
+    left:0;
+    top:0;
+    overflow:hidden;
+}
+
+#clouds canvas
+{
+    width:100%;
+    height:100%;
+}
+
+#clouds img
+{
+    position:absolute;
+    display:block;
+}
+
+#clouds .cloud1
+{
+    /*background:url(images/cloud1.png) no-repeat 30% 100px;*/
+    top: 100px;
+    left:30%;
+}
+
+#clouds .cloud2
+{
+    /*background:url(images/cloud2.png) no-repeat 50% 80px;*/
+    top: 80px;
+    left:50%;
+}
+
+#clouds .cloud3
+{
+    /*background:url(images/cloud3.png) no-repeat 50% 110px;*/
+    top: 110px;
+    left:50%;
+}
+
+#clouds .cloud4
+{
+    /*background:url(images/cloud4.png) no-repeat 70% 70px;*/
+    top: 70px;
+    left:70%;
+    z-index:1000;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*		4.	Search Form 
+/*-------------------------------------------------------------------------*/
+
+#search-form
+{
+    margin-top:50px;
+    position: relative;	
+}
+
+#search-form .Text{
+	background:url(images/text-search.png) no-repeat; 
+	width:260px; 
+	height:60px;
+	float:left;
+	margin-right:-22px;
+}
+	
+#search-form .Text input {
+	border: 0 none;
+    height: 20px;
+    width: 215px;
+	color:#afafaf;
+	margin:17px 0 0 17px;
+	padding:0;
+}
+
+#search-form .Submit{
+	background:url(images/search-btn.png) no-repeat;
+	border: 0 none;
+    cursor: pointer;
+    height: 69px;
+    width: 68px;
+	float:left;
+	padding:0;
+	margin-top:-5px;
+}
+
+#search-form .Submit:hover{
+    background-position: 0 -69px;
+}
+
+/*--------------------------------------------------------------------*/
+/* 	5.	Social Link
+/*--------------------------------------------------------------------*/
+
+.navigation-links{
+    font-size: 14px;
+    height: 82px;
+    list-style-type: none;
+    margin-left: 45px;
+}
+
+.navigation-links li{
+	 float: left;    
+	 margin-left: 11px;
+	 position:relative;
+}
+
+.navigation-links a{
+	display:block;
+	width:42px;
+	height:43px;
+	background:url(images/nav-buttons.png) no-repeat;
+}
+
+.navigation-links a.home:hover
+{
+    background-position:0 -43px;
+}
+
+.navigation-links a.sitemap
+{
+    background-position:-42px 0;
+}
+
+.navigation-links a.sitemap:hover
+{
+    background-position:-42px -43px;
+}
+
+.navigation-links a.contact
+{
+    background-position:-84px 0;
+}
+
+.navigation-links a.contact:hover
+{
+    background-position:-84px -43px;
+}
+
+.tooltip
+{
+    position:absolute;
+    background:url(images/tooltip-top.png) no-repeat center top;
+    padding-top:5px;
+    height:27px;
+    display:none;
+}
+
+.tooltip div
+{
+    padding:0 20px;
+    height:27px;
+    color:#FFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background:url(images/tooltip-bg.png);
+    line-height:26px;
+}
+
+#first{
+	padding-left:22px;
+}
+
+
+/*---------------------------------------------------------------*/
+/*		6.	Facebook Star
+/*---------------------------------------------------------------*/
+
+
+.facebook-star{
+    margin:20px 0 0 45px;
+}
+
+.facebook-star a{
+	background:url(images/normal-fb.png) no-repeat;
+    float: right;
+    margin-right: 0;
+    margin-top:-7px;
+	width:86px;
+	height:86px;
+}
+
+.facebook-star a:hover{
+	background:url(images/hover-fb.png) no-repeat;
+	width:86px;
+	height:86px;
+}
+
+#Star{
+	margin-left:55px;
+	margin-top:-40px;
+}
+
+

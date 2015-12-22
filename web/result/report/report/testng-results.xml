@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="9" total="66" passed="57">
+  <reporter-output>
+  </reporter-output>
+  <suite name="all" duration-ms="21459" started-at="2015-09-17T10:00:04Z" finished-at="2015-09-17T10:00:25Z">
+    <groups>
+    </groups>
+    <test name="客户端激活" duration-ms="606" started-at="2015-09-17T10:00:04Z" finished-at="2015-09-17T10:00:04Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@39fb3ab6]" name="testSetup" is-config="true" duration-ms="31" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@39fb3ab6]" name="setParameters" duration-ms="54" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/客户端激活.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@39fb3ab6]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@39fb3ab6]" name="run" duration-ms="501" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@39fb3ab6]" name="tearDown" is-config="true" duration-ms="4" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 客户端激活 -->
+    <test name="客户端登录" duration-ms="80" started-at="2015-09-17T10:00:04Z" finished-at="2015-09-17T10:00:04Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@6d78f375]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@6d78f375]" name="setParameters" duration-ms="3" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/客户端登录.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@6d78f375]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@6d78f375]" name="run" duration-ms="66" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@6d78f375]" name="tearDown" is-config="true" duration-ms="7" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 客户端登录 -->
+    <test name="登录渠道" duration-ms="65" started-at="2015-09-17T10:00:04Z" finished-at="2015-09-17T10:00:04Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@215be6bb]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@215be6bb]" name="setParameters" duration-ms="4" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/登录渠道.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@215be6bb]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@215be6bb]" name="run" duration-ms="56" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@215be6bb]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 登录渠道 -->
+    <test name="储蓄卡信息同步" duration-ms="18" started-at="2015-09-17T10:00:04Z" finished-at="2015-09-17T10:00:04Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@56f4468b]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@56f4468b]" name="setParameters" duration-ms="3" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/储蓄卡信息同步.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@56f4468b]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@56f4468b]" name="run" duration-ms="10" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:04Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.paic.layer.frame.parse.ServiceDataProcessing.getPostParam(ServiceDataProcessing.java:380)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:183)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@56f4468b]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 储蓄卡信息同步 -->
+    <test name="信用卡信息同步" duration-ms="4092" started-at="2015-09-17T10:00:04Z" finished-at="2015-09-17T10:00:08Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2ef5e5e3]" name="testSetup" is-config="true" duration-ms="4" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2ef5e5e3]" name="setParameters" duration-ms="3" started-at="2015-09-17T18:00:04Z" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/信用卡信息同步.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2ef5e5e3]" name="run" duration-ms="4081" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2ef5e5e3]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:04Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:08Z" finished-at="2015-09-17T18:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 信用卡信息同步 -->
+    <test name="保单信息查询" duration-ms="2039" started-at="2015-09-17T10:00:08Z" finished-at="2015-09-17T10:00:11Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@396a51ab]" name="testSetup" is-config="true" duration-ms="0" started-at="2015-09-17T18:00:08Z" finished-at="2015-09-17T18:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@396a51ab]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:08Z" finished-at="2015-09-17T18:00:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/保单信息查询.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@396a51ab]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:08Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@396a51ab]" name="run" duration-ms="2032" started-at="2015-09-17T18:00:08Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@396a51ab]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 保单信息查询 -->
+    <test name="银行所有账户查询" duration-ms="66" started-at="2015-09-17T10:00:11Z" finished-at="2015-09-17T10:00:11Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@735b5592]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@735b5592]" name="setParameters" duration-ms="3" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/银行所有账户查询.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@735b5592]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@735b5592]" name="run" duration-ms="57" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:11Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":[{"accountTypeCode":"debit","accountType":"储蓄卡","bankName":"中国工商银行","accountCatetory":"??????","abbreviation":"ICBC","cardNo":"1193","organizationId":"1","isDefault":1,"currency":"人民币","shortName":"储"},{"accountTypeCode":"debit","accountType":"储蓄卡","bankName":"中国工商银行","accountCatetory":"???","abbreviation":"ICBC","cardNo":"6828","organizationId":"1","isDefault":0,"currency":"人民币","shortName":"储"},{"accountName":"?★?","accountTypeCode":"credit","accountType":"信用卡","bankName":"中国工商银行","abbreviation":"ICBC","cardNo":"5692","organizationId":"1","isDefault":0,"currency":"人民币","shortName":"信"},{"accountName":"?★?","accountTypeCode":"credit","accountType":"信用卡","bankName":"中国工商银行","abbreviation":"ICBC","cardNo":"8358","organizationId":"1","isDefault":0,"currency":"人民币","shortName":"信"}]} is not matched! url = https://servicebeta.24money.com/default/bank.account.getAllDetail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":[{"accountTypeCode":"debit","accountType":"储蓄卡","bankName":"中国工商银行","accountCatetory":"??????","abbreviation":"ICBC","cardNo":"1193","organizationId":"1","isDefault":1,"currency":"人民币","shortName":"储"},{"accountTypeCode":"debit","accountType":"储蓄卡","bankName":"中国工商银行","accountCatetory":"???","abbreviation":"ICBC","cardNo":"6828","organizationId":"1","isDefault":0,"currency":"人民币","shortName":"储"},{"accountName":"?★?","accountTypeCode":"credit","accountType":"信用卡","bankName":"中国工商银行","abbreviation":"ICBC","cardNo":"5692","organizationId":"1","isDefault":0,"currency":"人民币","shortName":"信"},{"accountName":"?★?","accountTypeCode":"credit","accountType":"信用卡","bankName":"中国工商银行","abbreviation":"ICBC","cardNo":"8358","organizationId":"1","isDefault":0,"currency":"人民币","shortName":"信"}]} is not matched! url = https://servicebeta.24money.com/default/bank.account.getAllDetail
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@735b5592]" name="tearDown" is-config="true" duration-ms="4" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 银行所有账户查询 -->
+    <test name="银行资产概要" duration-ms="97" started-at="2015-09-17T10:00:11Z" finished-at="2015-09-17T10:00:11Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@d2cc05a]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@d2cc05a]" name="setParameters" duration-ms="3" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/银行资产概要.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@d2cc05a]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@d2cc05a]" name="run" duration-ms="87" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:11Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":{"creditServicePhone":"95588","servicePhone":"95588","creditSum":{"balanceValue":"¥0.00","cardCount":2,"name":"信用卡","balanceCardCount":0,"shortName":"信","debtCardCount":2,"debtValue":"¥-10,988.32"},"bookSum":{"cardCount":0,"name":"存折","shortName":"折","value":"¥0.00"},"shortName":"工商银行","abbreviation":"ICBC","asset":"¥1,620.60","debitSum":{"cardCount":2,"name":"储蓄卡","shortName":"储","value":"¥12,608.92"}}} is not matched! url = https://servicebeta.24money.com/default/bank.account.getAssetByOrg]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":{"creditServicePhone":"95588","servicePhone":"95588","creditSum":{"balanceValue":"¥0.00","cardCount":2,"name":"信用卡","balanceCardCount":0,"shortName":"信","debtCardCount":2,"debtValue":"¥-10,988.32"},"bookSum":{"cardCount":0,"name":"存折","shortName":"折","value":"¥0.00"},"shortName":"工商银行","abbreviation":"ICBC","asset":"¥1,620.60","debitSum":{"cardCount":2,"name":"储蓄卡","shortName":"储","value":"¥12,608.92"}}} is not matched! url = https://servicebeta.24money.com/default/bank.account.getAssetByOrg
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@d2cc05a]" name="tearDown" is-config="true" duration-ms="4" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 银行资产概要 -->
+    <test name="储蓄子账户查询" duration-ms="79" started-at="2015-09-17T10:00:11Z" finished-at="2015-09-17T10:00:11Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2a2d45ba]" name="testSetup" is-config="true" duration-ms="0" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2a2d45ba]" name="setParameters" duration-ms="3" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/储蓄子账户查询.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2a2d45ba]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2a2d45ba]" name="run" duration-ms="71" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@2a2d45ba]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 储蓄子账户查询 -->
+    <test name="信用卡账单信息查询" duration-ms="59" started-at="2015-09-17T10:00:11Z" finished-at="2015-09-17T10:00:11Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@675d3402]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@675d3402]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/信用卡账单信息查询.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@675d3402]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@675d3402]" name="run" duration-ms="52" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:11Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":{"prevDate":"2015/05","billDetail":[{"currencyType":"¥","tradeDetails":[{"tradeTime":"2015/05/05","tradeAmount":"21.30","accountDate":"2015/05/05","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"第一支行营业厅","accountAmount":"21.30"},{"tradeTime":"2015/04/28","tradeAmount":"-79.00","accountDate":"2015/04/28","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"支付宝（中国）网络技术有限公司","accountAmount":"-79.00"},{"tradeTime":"2015/04/13","tradeAmount":"-4.50","accountDate":"2015/04/13","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"上海可的便利店有限公司","accountAmount":"-4.50"},{"tradeTime":"2015/04/13","tradeAmount":"-44.90","accountDate":"2015/04/13","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"支付宝（中国）网络技术有限公司","accountAmount":"-44.90"}],"hasPaymented":"21.3","currentPayment":"-128.40","endDate":"2015/05/11","minimumPayment":"-12.84","type":"人民币","paymentDate":"2015/06/05","startDate":"2015/04/12"}],"startYear":"2015","currentDate":"2015/06","currentYear":"2015","hasEarlier":true}} is not matched! url = https://servicebeta.24money.com/default/bank.credit.getCreditBillDetail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":{"prevDate":"2015/05","billDetail":[{"currencyType":"¥","tradeDetails":[{"tradeTime":"2015/05/05","tradeAmount":"21.30","accountDate":"2015/05/05","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"第一支行营业厅","accountAmount":"21.30"},{"tradeTime":"2015/04/28","tradeAmount":"-79.00","accountDate":"2015/04/28","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"支付宝（中国）网络技术有限公司","accountAmount":"-79.00"},{"tradeTime":"2015/04/13","tradeAmount":"-4.50","accountDate":"2015/04/13","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"上海可的便利店有限公司","accountAmount":"-4.50"},{"tradeTime":"2015/04/13","tradeAmount":"-44.90","accountDate":"2015/04/13","cardTailNo":"8358","tradeCurrencyName":"¥","balanceCurrencyName":"¥","remark":"支付宝（中国）网络技术有限公司","accountAmount":"-44.90"}],"hasPaymented":"21.3","currentPayment":"-128.40","endDate":"2015/05/11","minimumPayment":"-12.84","type":"人民币","paymentDate":"2015/06/05","startDate":"2015/04/12"}],"startYear":"2015","currentDate":"2015/06","currentYear":"2015","hasEarlier":true}} is not matched! url = https://servicebeta.24money.com/default/bank.credit.getCreditBillDetail
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@675d3402]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 信用卡账单信息查询 -->
+    <test name="客户端左侧逻辑判断" duration-ms="59" started-at="2015-09-17T10:00:11Z" finished-at="2015-09-17T10:00:11Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7823a2f9]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7823a2f9]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/客户端左侧逻辑判断.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7823a2f9]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7823a2f9]" name="run" duration-ms="53" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7823a2f9]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 客户端左侧逻辑判断 -->
+    <test name="左侧边栏查询" duration-ms="903" started-at="2015-09-17T10:00:11Z" finished-at="2015-09-17T10:00:12Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@724af044]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@724af044]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:11Z" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/左侧边栏查询.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@724af044]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@724af044]" name="run" duration-ms="898" started-at="2015-09-17T18:00:11Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:12Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":[{"accounts":[{"code":3,"currencyAccounts":[{"amount":"¥-5,817.71","currency":"156"}],"type":"信","mediums":["8358"]},{"code":3,"currencyAccounts":[{"amount":"¥-5,170.61","currency":"156"}],"type":"信","mediums":["5692"]}]},{"organizationId":"1","accounts":[{"code":1,"currencyAccounts":[{"amount":"¥12,067.50","currency":"156"}],"type":"储","mediums":["6828"]},{"code":1,"currencyAccounts":[{"amount":"¥541.42","currency":"156"}],"type":"储","mediums":["1193"]}]}]} is not matched! url = https://servicebeta.24money.com/default/bank.account.getAll]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":[{"accounts":[{"code":3,"currencyAccounts":[{"amount":"¥-5,817.71","currency":"156"}],"type":"信","mediums":["8358"]},{"code":3,"currencyAccounts":[{"amount":"¥-5,170.61","currency":"156"}],"type":"信","mediums":["5692"]}]},{"organizationId":"1","accounts":[{"code":1,"currencyAccounts":[{"amount":"¥12,067.50","currency":"156"}],"type":"储","mediums":["6828"]},{"code":1,"currencyAccounts":[{"amount":"¥541.42","currency":"156"}],"type":"储","mediums":["1193"]}]}]} is not matched! url = https://servicebeta.24money.com/default/bank.account.getAll
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@724af044]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 左侧边栏查询 -->
+    <test name="网银登录渠道是否存在" duration-ms="38" started-at="2015-09-17T10:00:12Z" finished-at="2015-09-17T10:00:12Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@cc285f4]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/网银登录渠道是否存在.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@cc285f4]" name="testSetup" is-config="true" duration-ms="0" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@cc285f4]" name="run" duration-ms="32" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@cc285f4]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@cc285f4]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 网银登录渠道是否存在 -->
+    <test name="获取同步开始时间" duration-ms="42" started-at="2015-09-17T10:00:12Z" finished-at="2015-09-17T10:00:12Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4b9e13df]" name="testSetup" is-config="true" duration-ms="0" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4b9e13df]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/获取同步开始时间.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4b9e13df]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4b9e13df]" name="run" duration-ms="36" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4b9e13df]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 获取同步开始时间 -->
+    <test name="获取最后更新时间" duration-ms="36" started-at="2015-09-17T10:00:12Z" finished-at="2015-09-17T10:00:12Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4c70fda8]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4c70fda8]" name="setParameters" duration-ms="4" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/获取最后更新时间.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4c70fda8]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4c70fda8]" name="run" duration-ms="29" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:12Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":{"hours":10,"seconds":46,"month":9,"year":2015,"minutes":48,"day":17}} is not matched! url = https://servicebeta.24money.com/default/bdc.user.data.getLastUpdateTime]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":{"hours":10,"seconds":46,"month":9,"year":2015,"minutes":48,"day":17}} is not matched! url = https://servicebeta.24money.com/default/bdc.user.data.getLastUpdateTime
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@4c70fda8]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 获取最后更新时间 -->
+    <test name="账户密码获取同步" duration-ms="7074" started-at="2015-09-17T10:00:12Z" finished-at="2015-09-17T10:00:19Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@28d25987]" name="testSetup" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@28d25987]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:12Z" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/账户密码获取同步.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@28d25987]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@28d25987]" name="run" duration-ms="7065" started-at="2015-09-17T18:00:12Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@28d25987]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 账户密码获取同步 -->
+    <test name="金融机构" duration-ms="51" started-at="2015-09-17T10:00:19Z" finished-at="2015-09-17T10:00:19Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@29774679]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@29774679]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/金融机构.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@29774679]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:19Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@29774679]" name="run" duration-ms="45" started-at="2015-09-17T18:00:19Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:19Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":[{"organizationId":"1","webSite":"www.icbc.com.cn","loginUrl":"https://mybank.icbc.com.cn/icbc/perbank/index.jsp","name":"中国工商银行","shortName":"工商银行","abbreviation":"ICBC","type":"01"},{"organizationId":"2","webSite":"www.abchina.com","loginUrl":"https://easyabc.95599.cn/SelfBanketBank/zh_CN/entrance/logonSelf.aspx","name":"中国农业银行","shortName":"农业银行","abbreviation":"ABC","type":"01"},{"organizationId":"3","webSite":"www.boc.cn","loginUrl":"https://ebsnew.boc.cn/boc15/login.html","name":"中国银行","shortName":"中国银行","abbreviation":"BOC","type":"01"},{"organizationId":"4","webSite":"www.ccb.com","loginUrl":"https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp","name":"中国建设银行","shortName":"建设银行","abbreviation":"CCB","type":"01"},{"organizationId":"5","webSite":"www.cmbchina.com","loginUrl":"https://pbsz.ebank.cmbchina.com/CmbBank_GenShell/UI/GenShellPC/Login/Login.aspx","name":"招商银行","shortName":"招商银行","abbreviation":"CMB","type":"01"},{"organizationId":"6","webSite":"www.bankcomm.com","loginUrl":"https://pbank.95559.com.cn/personbank/logon.jsp","name":"交通银行","shortName":"交通银行","abbreviation":"BCM","type":"01"}]} is not matched! url = https://servicebeta.24money.com/default/bank.organization.getAll]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":[{"organizationId":"1","webSite":"www.icbc.com.cn","loginUrl":"https://mybank.icbc.com.cn/icbc/perbank/index.jsp","name":"中国工商银行","shortName":"工商银行","abbreviation":"ICBC","type":"01"},{"organizationId":"2","webSite":"www.abchina.com","loginUrl":"https://easyabc.95599.cn/SelfBanketBank/zh_CN/entrance/logonSelf.aspx","name":"中国农业银行","shortName":"农业银行","abbreviation":"ABC","type":"01"},{"organizationId":"3","webSite":"www.boc.cn","loginUrl":"https://ebsnew.boc.cn/boc15/login.html","name":"中国银行","shortName":"中国银行","abbreviation":"BOC","type":"01"},{"organizationId":"4","webSite":"www.ccb.com","loginUrl":"https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp","name":"中国建设银行","shortName":"建设银行","abbreviation":"CCB","type":"01"},{"organizationId":"5","webSite":"www.cmbchina.com","loginUrl":"https://pbsz.ebank.cmbchina.com/CmbBank_GenShell/UI/GenShellPC/Login/Login.aspx","name":"招商银行","shortName":"招商银行","abbreviation":"CMB","type":"01"},{"organizationId":"6","webSite":"www.bankcomm.com","loginUrl":"https://pbank.95559.com.cn/personbank/logon.jsp","name":"交通银行","shortName":"交通银行","abbreviation":"BCM","type":"01"}]} is not matched! url = https://servicebeta.24money.com/default/bank.organization.getAll
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@29774679]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 金融机构 -->
+    <test name="信用卡账户信息查询" duration-ms="42" started-at="2015-09-17T10:00:19Z" finished-at="2015-09-17T10:00:19Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@68c4039c]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@68c4039c]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/信用卡账户信息查询.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@68c4039c]" name="loadData" duration-ms="0" started-at="2015-09-17T18:00:19Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@68c4039c]" name="run" duration-ms="38" started-at="2015-09-17T18:00:19Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:19Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":{"currencyType":"¥","billDate":"12"}} is not matched! url = https://servicebeta.24money.com/default/bank.credit.getCreditAccountDetail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":{"currencyType":"¥","billDate":"12"}} is not matched! url = https://servicebeta.24money.com/default/bank.credit.getCreditAccountDetail
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@68c4039c]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 信用卡账户信息查询 -->
+    <test name="储蓄账户同步" duration-ms="4081" started-at="2015-09-17T10:00:19Z" finished-at="2015-09-17T10:00:23Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@47c62251]" name="testSetup" is-config="true" duration-ms="0" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@47c62251]" name="setParameters" duration-ms="1" started-at="2015-09-17T18:00:19Z" finished-at="2015-09-17T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/储蓄账户同步.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@47c62251]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:19Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@47c62251]" name="run" duration-ms="4076" started-at="2015-09-17T18:00:19Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@47c62251]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:23Z" finished-at="2015-09-17T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 储蓄账户同步 -->
+    <test name="储蓄账户流水同步" duration-ms="1777" started-at="2015-09-17T10:00:23Z" finished-at="2015-09-17T10:00:25Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@42d80b78]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:23Z" finished-at="2015-09-17T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@42d80b78]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:23Z" finished-at="2015-09-17T18:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/储蓄账户流水同步.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@42d80b78]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:23Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@42d80b78]" name="run" duration-ms="1770" started-at="2015-09-17T18:00:23Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@42d80b78]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 储蓄账户流水同步 -->
+    <test name="信用卡账单信息同步" duration-ms="113" started-at="2015-09-17T10:00:25Z" finished-at="2015-09-17T10:00:25Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@91161c7]" name="testSetup" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@91161c7]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/信用卡账单信息同步.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@91161c7]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:25Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@91161c7]" name="run" duration-ms="107" started-at="2015-09-17T18:00:25Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:25Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Interface layer >> run failure, assert：{"code":"success","result":true} is not matched! url = https://servicebeta.24money.com/default/bank.credit.syncAccountBillDetails]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Interface layer >> run failure, assert：{"code":"success","result":true} is not matched! url = https://servicebeta.24money.com/default/bank.credit.syncAccountBillDetails
+	at com.paic.layer.frame.assertion.Assertions.exitOnAssertionError(Assertions.java:112)
+	at com.paic.layer.frame.assertion.Assertions.handleOnAssertError(Assertions.java:141)
+	at com.paic.layer.frame.assertion.Assertions.assertTrue(Assertions.java:157)
+	at com.paic.layer.frame.testcase.LayerServiceCase.caseParse(LayerServiceCase.java:424)
+	at com.paic.layer.frame.testcase.LayerServiceCase.serviceCase(LayerServiceCase.java:458)
+	at com.paic.layer.frame.testcase.LayerServiceCase.run(LayerServiceCase.java:470)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@91161c7]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 信用卡账单信息同步 -->
+    <test name="客户端注销" duration-ms="42" started-at="2015-09-17T10:00:25Z" finished-at="2015-09-17T10:00:25Z">
+      <class name="com.paic.layer.frame.testcase.LayerServiceCase">
+        <test-method status="PASS" signature="setParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7cd62f43]" name="setParameters" duration-ms="2" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/客户端注销.json]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GBK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7cd62f43]" name="testSetup" is-config="true" duration-ms="0" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="loadData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7cd62f43]" name="loadData" duration-ms="1" started-at="2015-09-17T18:00:25Z" depends-on-methods="com.paic.layer.frame.template.templateServiceTest.setParameters" finished-at="2015-09-17T18:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7cd62f43]" name="run" duration-ms="37" started-at="2015-09-17T18:00:25Z" depends-on-methods="com.paic.layer.frame.testcase.LayerServiceCase.loadData" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paic.layer.frame.testcase.LayerServiceCase@7cd62f43]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-09-17T18:00:25Z" finished-at="2015-09-17T18:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paic.layer.frame.testcase.LayerServiceCase -->
+    </test> <!-- 客户端注销 -->
+  </suite> <!-- all -->
+</testng-results>

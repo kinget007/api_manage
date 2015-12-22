@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+	PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Hibernate映射文件的根元素 -->
+<hibernate-mapping package="com.yyl.api.bean">
+	<class	name="UserInfo"	table="userinfo">
+		<!-- 映射标识属性 -->
+		<id	name="code" type="string" column="code"  length="50">
+			<!-- 指定使用identity主键生成策略 -->
+			<generator class="assigned"/>
+		</id>
+		<!-- 映射普通属性 -->
+		<property name="name" column="name" type="string" length="50"/>	
+		<property name="email" column="email" type="string" length="50"/>		
+		<property name="mobile" column="mobile" type="string" length="50"/>								
+		<property name="department_name" column="department_name" type="string" length="50"/>
+		<property name="job_name" column="job_name" type="string" length="50"/>								
+		<property name="username" column="username" type="string" length="50"/>	
+		
+		<!-- <many-to-one name="CategorySecond" column="categorySecondID" class="com.yyl.api.bean.CategorySecond" not-null="true"/> -->
+		<set name="apiInfos" table="apiattention">
+        <key column="code"/>
+        <many-to-many column="apiID"  class="ApiInfo"/>
+    </set>
+
+	</class>
+</hibernate-mapping>

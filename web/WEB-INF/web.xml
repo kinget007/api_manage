@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+   <display-name>api_manage</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApiToolsServlet</servlet-name>
+    <servlet-class>com.yyl.api.servlet.ApiToolsServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginOut</servlet-name>
+    <servlet-class>com.yyl.api.servlet.loginOut</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddapiInfoServlet</servlet-name>
+    <servlet-class>com.yyl.api.servlet.AddapiInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApiManageInitServlet</servlet-name>
+    <servlet-class>com.yyl.api.servlet.ApiManageInitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditapiInfoServlet</servlet-name>
+    <servlet-class>com.yyl.api.servlet.EditapiInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CallBackServlet</servlet-name>
+    <servlet-class>com.yyl.api.servlet.CallBackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginOauth</servlet-name>
+    <servlet-class>com.yyl.api.servlet.loginOauth</servlet-class>
+  </servlet>
+  <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>addAttention</servlet-name>
+  <servlet-class>com.yyl.api.servlet.addAttention</servlet-class>
+</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RunTaskServlet</servlet-name>
+    <servlet-class>com.yyl.api.servlet.RunTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>localLocation</servlet-name>
+    <servlet-class>com.yyl.api.servlet.localLocation</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>ApiToolsServlet</servlet-name>
+    <url-pattern>/ApiToolsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddapiInfoServlet</servlet-name>
+    <url-pattern>/AddapiInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApiManageInitServlet</servlet-name>
+    <url-pattern>/ApiManageInitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditapiInfoServlet</servlet-name>
+    <url-pattern>/EditapiInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CallBackServlet</servlet-name>
+    <url-pattern>/CallBackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginOauth</servlet-name>
+    <url-pattern>/loginOauth</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAttention</servlet-name>
+    <url-pattern>/addAttention</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginOut</servlet-name>
+    <url-pattern>/loginOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RunTaskServlet</servlet-name>
+    <url-pattern>/RunTaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>localLocation</servlet-name>
+    <url-pattern>/localLocation</url-pattern>
+  </servlet-mapping>
+
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>default</servlet-name>-->
+    <!--<url-pattern>*.html</url-pattern>-->
+  <!--</servlet-mapping>-->
+  
+  <error-page>
+        <error-code>500</error-code>
+        <location>/error.jsp</location>
+ </error-page>
+
+  <welcome-file-list>
+    <!--<welcome-file>loginOauth</welcome-file>-->
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
